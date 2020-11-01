@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import "~normalize.css";
+
+@import "main/main.scss";
+@import "main/menu.scss";
+@import "generation/generation.scss";
+@import "brands/brands.scss";
+@import "slider/slider.scss";
+@import "shop/shop.scss";
+@import "subscribe/subscribe.scss";
+@import "footer/footer.scss";
+
+* {
+  font-family: "Lato";
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  img {display: none;}
+}
